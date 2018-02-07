@@ -1,0 +1,11 @@
+#pragma once
+
+#if defined(_DEBUG)
+#define MONITOR_VERSION_MAJOR 1
+#define MONITOR_VERSION_MINOR 0
+#define MONITOR_VERSION_PATCH 0
+#else
+#define MONITOR_VERSION_MAJOR 0
+#define MONITOR_VERSION_MINOR 1
+#define MONITOR_VERSION_PATCH 0
+#endif
