@@ -12,4 +12,4 @@ After installing Qt5, Qt Charts and nlohmann-json using vcpkg, open
 [build/vs/kiros.sln](build/vs/kiros.sln) using VS2017 then compile the solution.
 
 ## Credits
-* Michael "Maktm" Kiros - Developer
+* Michael "[Maktm](https://goo.gl/5XA2jp)" Kiros - Developer
