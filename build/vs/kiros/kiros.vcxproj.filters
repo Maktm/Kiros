@@ -33,6 +33,12 @@
     <ClCompile Include="Generated\moc_graphical_interface.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\src\subwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\moc_subwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\monitor\detail\static_assert.hpp">
@@ -47,9 +53,18 @@
     <ClInclude Include="Generated\ui_graphical_interface.hpp">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\include\monitor\subwindow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Generated\ui_subwindow.hpp">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\ui\graphical_interface.ui">
+      <Filter>User Interface Files</Filter>
+    </None>
+    <None Include="..\..\..\ui\subwindow.ui">
       <Filter>User Interface Files</Filter>
     </None>
   </ItemGroup>

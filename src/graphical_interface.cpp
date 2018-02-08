@@ -5,7 +5,7 @@
 
 GraphicalInterface::GraphicalInterface(QWidget* parent) : QMainWindow(parent)
 {
-  ui.setupUi(this);
+  setupUi(this);
 }
 
 GraphicalInterface::~GraphicalInterface()

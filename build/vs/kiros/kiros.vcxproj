@@ -182,16 +182,21 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\src\graphical_interface.cpp" />
     <ClCompile Include="..\..\..\src\main.cpp" />
+    <ClCompile Include="..\..\..\src\subwindow.cpp" />
     <ClCompile Include="Generated\moc_graphical_interface.cpp" />
+    <ClCompile Include="Generated\moc_subwindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\monitor\config.hpp" />
     <ClInclude Include="..\..\..\include\monitor\detail\static_assert.hpp" />
     <ClInclude Include="..\..\..\include\monitor\graphical_interface.hpp" />
+    <ClInclude Include="..\..\..\include\monitor\subwindow.hpp" />
     <ClInclude Include="Generated\ui_graphical_interface.hpp" />
+    <ClInclude Include="Generated\ui_subwindow.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\ui\graphical_interface.ui" />
+    <None Include="..\..\..\ui\subwindow.ui" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
