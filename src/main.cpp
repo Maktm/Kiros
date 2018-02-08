@@ -1,3 +1,5 @@
+#include <QtWidgets/QApplication>
+
 #include <monitor/config.hpp>
 #include <monitor/graphical_interface.hpp>
 

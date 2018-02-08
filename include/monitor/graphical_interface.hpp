@@ -1,8 +1,8 @@
 #pragma once
 
-#include <QMainWindow>
+#include <QtWidgets/QMainWindow>
 
-#include "ui_graphical_interface.h"
+#include "ui_graphical_interface.hpp"
 
 class GraphicalInterface : public QMainWindow
 {
