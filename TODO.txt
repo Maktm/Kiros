@@ -1,3 +1,3 @@
 * Figure out a way to add the logo (img/markdown_logo.png) into README.md without having it take up most of the screen.
-* Find a way to transport vcpkg settings. Currently, newly cloned repositories don't compile because of missing vcpkg packages.
+* Reimplement the build procedure by replacing the project with something that imitates the Qt plugin's procedures except it uses different directories. Use scripts and what not. Delete unneeded includes (QTDIR).
 * Design and implement a frameless window that inherits from QWidget/QMdiSubWindow.
