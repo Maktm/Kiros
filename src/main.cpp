@@ -28,6 +28,7 @@ int main(int argc, char* argv[])
   GraphicalInterface ui;
 
   QMdiArea* area = new QMdiArea(&ui);
+	area->setBackground(QColor(22, 22, 22));
   area->addSubWindow(new SubWindow{"$AAPL"});
   area->addSubWindow(new SubWindow{"$MSFT"});
   area->addSubWindow(new SubWindow{"$AAPL - Finances"});
