@@ -1,0 +1,27 @@
+QWidget
+{
+   color: #eff0f1;
+   background-color: #0d0d0d;
+   selection-background-color:#3daee9;
+   selection-color: #eff0f1;
+   background-clip: border;
+   border-image: none;
+   border: 0px transparent black;
+   outline: 0;
+}
+
+QLineEdit
+{
+   background-color: #232629;
+   padding: 5px;
+   border-style: solid;
+   border: 1px solid #76797C;
+   border-radius: 2px;
+   color: #eff0f1;
+}
+
+QLineEdit:hover,QLineEdit:focus
+{
+   border: 1px solid #3daee9;
+   color: #eff0f1;
+}
