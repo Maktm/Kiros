@@ -6,9 +6,11 @@
 
 class SubWindow : public QMdiSubWindow, private Ui::SubWindow
 {
-	Q_OBJECT
+  Q_OBJECT
 
 public:
-	SubWindow(QWidget* parent = Q_NULLPTR);
-	~SubWindow();
+  SubWindow(char const* title = nullptr, QWidget* parent = Q_NULLPTR);
+  ~SubWindow();
+
+  void SetTitle(char const* title);
 };

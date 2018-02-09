@@ -10,14 +10,15 @@ int main(int argc, char* argv[])
 {
   QApplication app(argc, argv);
 
-	QMdiArea* area = new QMdiArea;
-	area->addSubWindow(new SubWindow);
-	area->addSubWindow(new SubWindow);
-	area->addSubWindow(new SubWindow);
+  QMdiArea* area = new QMdiArea;
+  area->setStyleSheet("background-color:black;");
+  area->addSubWindow(new SubWindow{"$AAPL"});
+  area->addSubWindow(new SubWindow{"$MSFT"});
+  area->addSubWindow(new SubWindow{"$AAPL - Finances"});
 
-	GraphicalInterface ui;
-	ui.setCentralWidget(area);
-	ui.showFullScreen();
+  GraphicalInterface ui;
+  ui.setCentralWidget(area);
+  ui.showFullScreen();
 
   return app.exec();
 }

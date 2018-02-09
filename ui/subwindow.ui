@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>558</width>
-    <height>396</height>
+    <width>737</width>
+    <height>577</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,14 +16,14 @@
   <widget class="QWidget" name="windowFrame" native="true">
    <property name="geometry">
     <rect>
-     <x>-1</x>
-     <y>-1</y>
-     <width>561</width>
+     <x>80</x>
+     <y>90</y>
+     <width>571</width>
      <height>401</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">#windowFrame{border:1px solid palette(highlight); border-radius:5px 5px 5px 5px; background-color:palette(Window);}</string>
+    <string notr="true">#windowFrame{border:1px solid red; border-radius:5px 5px 5px 5px; background-color:palette(Window);}</string>
    </property>
    <layout class="QVBoxLayout" name="v">
     <property name="spacing">
@@ -73,9 +73,16 @@
        </property>
        <item>
         <widget class="QLabel" name="titleText">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="styleSheet">
           <string notr="true">padding-left:5px;
-color:rgb(153,153,153);</string>
+color:rgb(250, 181, 71);
+background-color: rgb(22, 22, 22);</string>
          </property>
          <property name="text">
           <string>Frameless Subwindow</string>
@@ -86,7 +93,7 @@ color:rgb(153,153,153);</string>
         <widget class="QToolButton" name="minimizeButton">
          <property name="styleSheet">
           <string notr="true">#minimizeButton{
-  background-color:none;
+  background-color: rgb(22, 22, 22);
   border:none;
   width:16px;
   height:16px;
@@ -109,7 +116,7 @@ color:rgb(153,153,153);</string>
         <widget class="QToolButton" name="restoreButton">
          <property name="styleSheet">
           <string notr="true">#restoreButton{
-  background-color:none;
+  background-color: rgb(22, 22, 22);
   border:none;
   width:16px;
   height:16px;
@@ -132,7 +139,7 @@ color:rgb(153,153,153);</string>
         <widget class="QToolButton" name="maximizeButton">
          <property name="styleSheet">
           <string notr="true">#maximizeButton{
-  background-color:none;
+  background-color: rgb(22, 22, 22);
   border:none;
   width:16px;
   height:16px;
@@ -155,7 +162,7 @@ color:rgb(153,153,153);</string>
         <widget class="QToolButton" name="closeButton">
          <property name="styleSheet">
           <string notr="true">#closeButton{
-  background-color:none;
+  background-color: rgb(22, 22, 22);
   border:none;
   width:16px;
   height:16px;
@@ -184,6 +191,7 @@ color:rgb(153,153,153);</string>
        <string notr="true">#windowContent{
   border: 0px none palette(base);
   border-radius:0px 0px 5px 5px;
+  background-color: rgb(38, 38, 38);
 }</string>
       </property>
      </widget>
