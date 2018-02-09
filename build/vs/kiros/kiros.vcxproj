@@ -183,14 +183,17 @@
     <ClCompile Include="..\..\..\src\graphical_interface.cpp" />
     <ClCompile Include="..\..\..\src\main.cpp" />
     <ClCompile Include="..\..\..\src\subwindow.cpp" />
+    <ClCompile Include="..\..\..\src\window_dragger.cpp" />
     <ClCompile Include="Generated\moc_graphical_interface.cpp" />
     <ClCompile Include="Generated\moc_subwindow.cpp" />
+    <ClCompile Include="Generated\moc_window_dragger.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\monitor\config.hpp" />
     <ClInclude Include="..\..\..\include\monitor\detail\static_assert.hpp" />
     <ClInclude Include="..\..\..\include\monitor\graphical_interface.hpp" />
     <ClInclude Include="..\..\..\include\monitor\subwindow.hpp" />
+    <ClInclude Include="..\..\..\include\monitor\window_dragger.hpp" />
     <ClInclude Include="Generated\ui_graphical_interface.hpp" />
     <ClInclude Include="Generated\ui_subwindow.hpp" />
   </ItemGroup>

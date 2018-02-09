@@ -18,3 +18,4 @@ $vcpkgRoot = $args[1]
 # Files to be MOC'ed
 &$vcpkgRoot\tools\qt5\moc.exe ..\..\include\monitor\subwindow.hpp > ..\vs\kiros\Generated\moc_subwindow.cpp
 &$vcpkgRoot\tools\qt5\moc.exe ..\..\include\monitor\graphical_interface.hpp > ..\vs\kiros\Generated\moc_graphical_interface.cpp
+&$vcpkgRoot\tools\qt5\moc.exe ..\..\include\monitor\window_dragger.hpp > ..\vs\kiros\Generated\moc_window_dragger.cpp

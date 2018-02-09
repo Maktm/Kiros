@@ -1,13 +1,19 @@
 #include <monitor/subwindow.hpp>
 
-#include <QtWidgets/QWidget>
+#include <QtWidgets/QMdiSubWindow>
 
-Subwindow::Subwindow(QWidget* parent) : QWidget(parent)
+SubWindow::SubWindow(QWidget* parent)
+  : QMdiSubWindow(parent, Qt::FramelessWindowHint)
 {
+  setWindowFlags(Qt::FramelessWindowHint | Qt::WindowSystemMenuHint |
+                 Qt::WindowMinimizeButtonHint);
+  setAttribute(Qt::WA_TranslucentBackground);
+  setAttribute(Qt::WA_DeleteOnClose);
+
   setupUi(this);
 }
 
-Subwindow::~Subwindow()
+SubWindow::~SubWindow()
 {
   ;
 }

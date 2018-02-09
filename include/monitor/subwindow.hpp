@@ -4,11 +4,11 @@
 
 #include "ui_subwindow.hpp"
 
-class Subwindow : public QWidget, Ui::Subwindow
+class SubWindow : public QMdiSubWindow, private Ui::SubWindow
 {
 	Q_OBJECT
 
 public:
-	Subwindow(QWidget* parent = Q_NULLPTR);
-	~Subwindow();
+	SubWindow(QWidget* parent = Q_NULLPTR);
+	~SubWindow();
 };
