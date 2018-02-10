@@ -1,2 +1,3 @@
 * Figure out a way to add the logo (img/markdown_logo.png) into README.md without having it take up most of the screen.
 * Design and implement a frameless window that inherits from QWidget/QMdiSubWindow.
+* Re-implement UI using QDockWidget, QMainWindow etc.
